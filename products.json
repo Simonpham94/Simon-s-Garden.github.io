@@ -1,0 +1,451 @@
+[
+    {
+        "id": "1",
+        "name": "alocasia elephant ear plants", 
+        "category": "plants",
+        "price": "49.95",
+        "img": "img/json img/alocasia elephant ear plants/cover.jpg"
+    }, 
+    {
+        "id": "2",
+        "name": "alocasia frydek", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/alocasia frydek/cover.jpg"
+    }, 
+    {
+        "id": "3",
+        "name": "alocasia maharani", 
+        "category": "plants",
+        "price": "24.95",
+        "img": "img/json img/alocasia maharani/cover.jpg"
+    }, 
+    {
+        "id": "4",
+        "name": "alocasia polly", 
+        "category": "plants",
+        "price": "34.95",
+        "img": "img/json img/alocasia polly/cover.jpg"
+    }, 
+    {
+        "id": "5",
+        "name": "burgundy ficus", 
+        "category": "plants",
+        "price": "28.95",
+        "img": "img/json img/burgundy ficus/cover.jpg"
+    }, 
+    {
+        "id": "6",
+        "name": "alocasia regal shields", 
+        "category": "plants",
+        "price": "32.95",
+        "img": "img/json img/alocasia regal shields/cover.jpg"
+    }, 
+    {
+        "id": "7",
+        "name": "asparagus ferns", 
+        "category": "plants",
+        "price": "11.96",
+        "img": "img/json img/asparagus ferns/cover.jpg"
+    }, 
+    {
+        "id": "8",
+        "name": "bonide brush killer concentrate", 
+        "category": "chemicals",
+        "price": "19.95",
+        "img": "img/json img/bonide brush killer concentrate/cover.jpg"
+    }, 
+    {
+        "id": "9",
+        "name": "bonide burnout weed and grass killer", 
+        "category": "chemicals",
+        "price": "14.95",
+        "img": "img/json img/bonide burnout weed and grass killer/cover.jpg"
+    }, 
+    {
+        "id": "10",
+        "name": "bonide kleenup weed and plant killer", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/bonide kleenup weed and plant killer/cover.jpg"
+    }, 
+    {
+        "id": "11",
+        "name": "bonide liquid cactus food concentrate", 
+        "category": "chemicals",
+        "price": "14.95",
+        "img": "img/json img/bonide liquid cactus food concentrate/cover.jpg"
+    }, 
+    {
+        "id": "12",
+        "name": "bonide maize corn gluten weed preventer", 
+        "category": "chemicals",
+        "price": "29.95",
+        "img": "img/json img/bonide maize corn gluten weed preventer/cover.jpg"
+    }, 
+    {
+        "id": "13",
+        "name": "bonide poison ivy and oak killer", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/bonide poison ivy and oak killer/cover.jpg"
+    }, 
+    {
+        "id": "14",
+        "name": "brite labs led grow lights", 
+        "category": "equipment",
+        "price": "41.97",
+        "img": "img/json img/brite labs led grow lights/cover.jpg"
+    }, 
+    {
+        "id": "15",
+        "name": "domino pease lily plants", 
+        "category": "plants",
+        "price": "26.95",
+        "img": "img/json img/domino pease lily plants/cover.jpg"
+    }, 
+    {
+        "id": "16",
+        "name": "ebony alocasia plants", 
+        "category": "plants",
+        "price": "32.95",
+        "img": "img/json img/ebony alocasia plants/cover.jpg"
+    }, 
+    {
+        "id": "17",
+        "name": "espoma bio-tone starter plus", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/espoma bio-tone starter plus/cover.jpg"
+    }, 
+    {
+        "id": "18",
+        "name": "espoma citrus-tone", 
+        "category": "chemicals",
+        "price": "15.95",
+        "img": "img/json img/espoma citrus-tone/cover.jpg"
+    }, 
+    {
+        "id": "19",
+        "name": "espoma flower-tone", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/espoma flower-tone/cover.jpg"
+    }, 
+    {
+        "id": "20",
+        "name": "espoma garden tone", 
+        "category": "chemicals",
+        "price": "14.95",
+        "img": "img/json img/espoma garden tone/cover.jpg"
+    }, 
+    {
+        "id": "21",
+        "name": "espoma iron-tone", 
+        "category": "chemicals",
+        "price": "15.95",
+        "img": "img/json img/espoma iron-tone/cover.jpg"
+    }, 
+    {
+        "id": "22",
+        "name": "espoma soil acidifier", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/espoma soil acidifier/cover.jpg"
+    }, 
+    {
+        "id": "23",
+        "name": "ficus audrey tree", 
+        "category": "plants",
+        "price": "36.95",
+        "img": "img/json img/ficus audrey tree/cover.jpg"
+    }, 
+    {
+        "id": "24",
+        "name": "ficus ginseng plants", 
+        "category": "plants",
+        "price": "36.95",
+        "img": "img/json img/ficus ginseng plants/cover.jpg"
+    }, 
+    {
+        "id": "25",
+        "name": "variegated hoya carnosa plants", 
+        "category": "plants",
+        "price": "16.95",
+        "img": "img/json img/variegated hoya carnosa plants/cover.jpg"
+    }, 
+    {
+        "id": "26",
+        "name": "ficus moclame", 
+        "category": "plants",
+        "price": "22.95",
+        "img": "img/json img/ficus moclame/cover.jpg"
+    }, 
+    {
+        "id": "27",
+        "name": "ficus ruby plants", 
+        "category": "plants",
+        "price": "42.95",
+        "img": "img/json img/ficus ruby plants/cover.jpg"
+    }, 
+    {
+        "id": "28",
+        "name": "ficus tineke", 
+        "category": "plants",
+        "price": "28.95",
+        "img": "img/json img/ficus tineke/cover.jpg"
+    }, 
+    {
+        "id": "29",
+        "name": "fiddle leaf big trees", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/fiddle leaf big trees/cover.jpg"
+    }, 
+    {
+        "id": "30",
+        "name": "fiddle leaf fig bushes", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/fiddle leaf fig bushes/cover.jpg"
+    }, 
+    {
+        "id": "31",
+        "name": "firesticks pencil cactus plants", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/firesticks pencil cactus plants/cover.jpg"
+    }, 
+    {
+        "id": "32",
+        "name": "frosty ferns", 
+        "category": "plants",
+        "price": "12.95",
+        "img": "img/json img/frosty ferns/cover.jpg"
+    }, 
+    {
+        "id": "33",
+        "name": "garden hose", 
+        "category": "equipment",
+        "price": "59.95",
+        "img": "img/json img/garden hose/cover.jpg"
+    }, 
+    {
+        "id": "34",
+        "name": "garden sprayer", 
+        "category": "equipment",
+        "price": "19.95",
+        "img": "img/json img/garden sprayer/cover.jpg"
+    }, 
+    {
+        "id": "35",
+        "name": "garden tool set 4-pieces", 
+        "category": "equipment",
+        "price": "24.95",
+        "img": "img/json img/garden tool set 4-pieces/cover.jpg"
+    }, 
+    {
+        "id": "36",
+        "name": "garden wagon", 
+        "category": "equipment",
+        "price": "294.80",
+        "img": "img/json img/garden wagon/cover.jpg"
+    }, 
+    {
+        "id": "37",
+        "name": "hindu rope hoya plants", 
+        "category": "plants",
+        "price": ".95",
+        "img": "img/json img/hindu rope hoya plants/cover.jpg"
+    }, 
+    {
+        "id": "38",
+        "name": "victoria birds nest ferns", 
+        "category": "plants",
+        "price": "27.95",
+        "img": "img/json img/victoria birds nest ferns/cover.jpg"
+    }, 
+    {
+        "id": "39",
+        "name": "vivosun 2-in-1 reflective grow tent", 
+        "category": "plants",
+        "price": "159.99",
+        "img": "img/json img/vivosun 2-in-1 reflective grow tent/cover.jpg"
+    }, 
+    {
+        "id": "40",
+        "name": "hoya carnosa krimson queen plants", 
+        "category": "plants",
+        "price": "26.95",
+        "img": "img/json img/hoya carnosa krimson queen plants/cover.jpg"
+    }, 
+    {
+        "id": "41",
+        "name": "hoya kerrii plants", 
+        "category": "plants",
+        "price": "69.95",
+        "img": "img/json img/hoya kerrii plants/cover.jpg"
+    }, 
+    {
+        "id": "42",
+        "name": "hoya macrophylla variegata wax plants", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/hoya macrophylla variegata wax plants/cover.jpg"
+    }, 
+    {
+        "id": "43",
+        "name": "hoya publicalyx splash plants", 
+        "category": "plants",
+        "price": "39.95",
+        "img": "img/json img/hoya publicalyx splash plants/cover.jpg"
+    }, 
+    {
+        "id": "44",
+        "name": "hoya retusa plants", 
+        "category": "plants",
+        "price": "20.95",
+        "img": "img/json img/hoya retusa plants/cover.jpg"
+    }, 
+    {
+        "id": "45",
+        "name": "hoya sweetheart plants", 
+        "category": "plants",
+        "price": "12.95",
+        "img": "img/json img/hoya sweetheart plants/cover.jpg"
+    }, 
+    {
+        "id": "46",
+        "name": "kalanchoe flapjack plants", 
+        "category": "plants",
+        "price": "19.95",
+        "img": "img/json img/kalanchoe flapjack plants/cover.jpg"
+    }, 
+    {
+        "id": "47",
+        "name": "walking kalanchoe plants", 
+        "category": "plants",
+        "price": "14.95",
+        "img": "img/json img/walking kalanchoe plants/cover.jpg"
+    }, 
+    {
+        "id": "48",
+        "name": "kalanchoe mother of thousands plant", 
+        "category": "plants",
+        "price": "19.95",
+        "img": "img/json img/kalanchoe mother of thousands plant/cover.jpg"
+    }, 
+    {
+        "id": "49",
+        "name": "white christmas cactus", 
+        "category": "plants",
+        "price": "10.95",
+        "img": "img/json img/white christmas cactus/cover.jpg"
+    }, 
+    {
+        "id": "50",
+        "name": "kangaroo paw ferns", 
+        "category": "plants",
+        "price": "26.95",
+        "img": "img/json img/kangaroo paw ferns/cover.jpg"
+    }, 
+    {
+        "id": "51",
+        "name": "white fittonia plants", 
+        "category": "plants",
+        "price": "10.95",
+        "img": "img/json img/white fittonia plants/cover.jpg"
+    }, 
+    {
+        "id": "52",
+        "name": "little fiddle fiddle leaf fig trees", 
+        "category": "plants",
+        "price": "21.95",
+        "img": "img/json img/little fiddle fiddle leaf fig trees/cover.jpg"
+    }, 
+    {
+        "id": "53",
+        "name": "nursery pot 100 pack 4", 
+        "category": "equipment",
+        "price": "34.99",
+        "img": "img/json img/nursery pot 100 pack 4/cover.jpg"
+    }, 
+    {
+        "id": "54",
+        "name": "osmocote plus outdoor and indoor plant food", 
+        "category": "chemicals",
+        "price": "16.95",
+        "img": "img/json img/osmocote plus outdoor and indoor plant food/cover.jpg"
+    }, 
+    {
+        "id": "55",
+        "name": "pease lily", 
+        "category": "plants",
+        "price": "14.95",
+        "img": "img/json img/pease lily/cover.jpg"
+    }, 
+    {
+        "id": "56",
+        "name": "pink chrismast cactus", 
+        "category": "plants",
+        "price": "12.95",
+        "img": "img/json img/pink chrismast cactus/cover.jpg"
+    }, 
+    {
+        "id": "57",
+        "name": "pink fittonia plants", 
+        "category": "plants",
+        "price": "16.95",
+        "img": "img/json img/pink fittonia plants/cover.jpg"
+    }, 
+    {
+        "id": "58",
+        "name": "potted pease lily", 
+        "category": "plants",
+        "price": "20.27",
+        "img": "img/json img/potted pease lily/cover.jpg"
+    }, 
+    {
+        "id": "59",
+        "name": "preen garden ween preventer", 
+        "category": "chemicals",
+        "price": "39.95",
+        "img": "img/json img/preen garden ween preventer/cover.jpg"
+    }, 
+    {
+        "id": "60",
+        "name": "rabbit foot fern plants", 
+        "category": "plants",
+        "price": "14.92",
+        "img": "img/json img/rabbit foot fern plants/cover.jpg"
+    }, 
+    {
+        "id": "61",
+        "name": "red chrismast cacatus", 
+        "category": "plants",
+        "price": "10.95",
+        "img": "img/json img/red chrismast cacatus/cover.jpg"
+    }, 
+    {
+        "id": "62",
+        "name": "red fittornia plants", 
+        "category": "plants",
+        "price": "16.95",
+        "img": "img/json img/red fittornia plants/cover.jpg"
+    }, 
+    {
+        "id": "63",
+        "name": "ric rac cactus plants", 
+        "category": "plants",
+        "price": "18.95",
+        "img": "img/json img/ric rac cactus plants/cover.jpg"
+    }, 
+    {
+        "id": "64",
+        "name": "solar stake light", 
+        "category": "equipment",
+        "price": "32.99",
+        "img": "img/json img/solar stake light/cover.jpg"
+    }
+    
+]

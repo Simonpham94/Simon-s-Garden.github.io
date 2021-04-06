@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Lightbox -->
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Simon's Garden</title>
+  </head>
+  <body>
+    <div class="banner mx-auto">
+      5% Off Orders | Enter SIMONSGARDEN at Checkout
+      <span class="free-shipping">Free Shipping On Orders Over $125</span>
+    </div>
+    <div class="wrapper">
+      
+      <nav>
+        <div class="logo">
+          <img src="img/logo/logo.png" alt="logo" />
+        </div>
+        <ul class="nav-links" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <a class="quantity-link" id="cart" data-bs-toggle="modal" data-bs-target="#cartModal">
+              <i class="fas fa-shopping-cart" id="cart-button"></i>
+              <span class="quantity">1</span>
+            </a>
+          </li>
+        </ul>
+        <div class="burger" id="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <h1 class="display-5">Make Your Home A 'You-Topia'</h1>
+      <h5><em>Canada’s top choice for everything plants!</em></h5>
+      <p class="py-4 px-4 fs-5 text-start">
+        Bring your dream utopia and make it into your little corner of tranquility! Have a plant in your head? We might have it, so do not hesitate to check out! Featuring 200+ plant species with great quality and the best price, we surely can make any paradise a reality.
+      </p>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            class="ind"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            class="ind"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            class="ind"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/demo img/cactuz.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/demo img/plant pots.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/demo img/veggies.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+      <section id="gallery">
+        <div class="gallery my-5">
+          <h1 class="text-center display-5">#You-Topia</h1>
+          <p class=" py-3 fs-5 text-start">
+            Check out these stunning you-topia that our happy customers have made using Simon’s Garden products! Don’t forget to share your piece of paradise with us as well!
+          </p>
+          <div class="row mb-2">
+            <div class="col-md-4">
+              <a href="img/demo img/demo1.jpg" data-lightbox="demo1">
+                <img src="img/demo img/demo1.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="img/demo img/demo2.jpg" data-lightbox="demo2">
+                <img src="img/demo img/demo2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="img/demo img/demo3.jpg" data-lightbox="demo3">
+                <img src="img/demo img/demo3.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="row mb-2">
+            <div class="col-md-4">
+              <a href="img/demo img/demo4.jpg" data-lightbox="demo4">
+                <img src="img/demo img/demo4.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="img/demo img/demo5.jpg" data-lightbox="demo5">
+                <img src="img/demo img/demo5.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="img/demo img/demo6.jpg" data-lightbox="demo6">
+                <img src="img/demo img/demo6.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="row mb-2">
+            <div class="col-md-4">
+              <a href="img/demo img/demo7.jpg" data-lightbox="demo7">
+                <img src="img/demo img/demo7.jpg" alt="" />
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="img/demo img/demo8.jpg" data-lightbox="demo8">
+                <img src="img/demo img/demo8.jpg" alt="" />
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="img/demo img/demo9.jpg" data-lightbox="demo9">
+                <img src="img/demo img/demo9.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="best-selling-plants my-5">
+        <h1 class="my-5 display-5">Our Best Selling Plants</h1>
+    
+         <div class="card-collection ">
+        
+            <div class="card">
+              <img
+                src="img/plants/pease liliy plants/potted pease lily/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Potted Pease Lily
+                </h6>
+                <p class="card-text fw-bold text-danger mb-2">$20.27</p>
+                <a href="#" class="btn btn-outline-success w-100"
+                  >Add to cart</a
+                >
+              </div>
+
+            </div>
+            <div class="card">
+              <img
+                src="img/plants/cactus plants/red chrismast cacatus/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Red Chrismast Cacatus
+                </h6>
+                <p class="card-text fw-bold text-danger mb-2">$10.95</p>
+                <a href="#" class="btn btn-outline-success w-100"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <span class="soldout_badge badge bg-red text-white mb-2">Sold Out</span>
+              <img
+                src="img/plants/ficus trees/burgundy ficus/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Burgundy Ficus
+                </h6>
+                <p class="card-text fw-bold text-danger mb-2">$28.95</p>
+                <a href="contact.html" class="btn btn-outline-secondary w-100"
+                  >Get notified when it's available</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <span class="sale_badge badge bg-light-blue text-white">15% OFF</span>
+              <img
+                src="img/plants/fittonia plants/pink fittonia plants/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Pink Fittonia Plants
+                </h6>
+                <p class="card-text fw-bold mb-2"><s>$16.95</s> <span class="text-danger ">$14.41</span></p>
+                <a href="#" class="btn btn-outline-success w-100"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="img/plants/hoya plants/hoya retusa plants/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Hoya Retusa Plants
+                </h6>
+                <p class="card-text fw-bold text-danger mb-2">$20.95</p>
+                <a href="#" class="btn btn-outline-success w-100"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="img/plants/cactus plants/pink chrismast cactus/cover.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                  Pink Chrismast Cactus
+                </h6>
+                <p class="card-text fw-bold text-danger mb-2">$12.95</p>
+                <a href="#" class="btn btn-outline-success w-100"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+         
+
+          
+          
+          </div>
+        </div>
+      </div>
+
+      
+      
+        <a href="products.html" class="shopping-btn-link"
+        ><input type="submit" value="Let's shop" class="btn btn-lg btn-success mx-auto d-block my-5 shopping-btn"
+      /></a>
+      
+    </section>
+    </div>
+
+   
+    <!-- Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <!-- cart modal -->
+        <div class="modal-content show" id="cart-modal">
+            <div class="modal-header show" id="cart-modal">
+              <h5 class="modal-title text-success" id="cartModalLabel"><b>Your Cart</b></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="cart-list">
+
+              <div class="item-container">
+                <div class="img-container">
+                  <img src="img/json img/alocasia elephant ear plants/cover.jpg" alt="">
+                </div>
+                <div class="item-bought-info">
+                  <small class="text-success"><b>Alocasia Elephant Ear Plants</b></small>
+                  <small><b>$26.95</b></small>
+                  <button class="remove-item-btn">
+                    <i class="fas fa-trash"></i>
+                  </button>
+                </div>
+                <div class="quantity-bought-container">
+                  <i class="fas fa-chevron-up"></i>
+                  <p class="item-amount">1</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              
+              
+
+              <p class="total-text fw-bold">Your total is: <span class="text-primary" id="total">$26.95</span></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" id="proceed-to-shipping-btn">Checkout </button>
+            </div>
+       </div>
+       <!-- shipping modal -->
+        <div class="modal-content show none" id="shipping-modal">
+            <div class="modal-header show" id="cart-modal">
+              <h5 class="modal-title text-success" id="cartModalLabel"><b>Shipping <small><em class="text-danger">(we only ship within Canada at the moment)</em></b> </small></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="shipping">
+              
+                <form class="form my-3" id="shipping-form">
+                  <div class="card-container form-item">
+                    <p><b>We accept:</b></p>
+                    <div class="cards">
+                      <i class="fab fa-cc-visa fa-3x me-2"></i>
+                      <i class="fab fa-cc-mastercard fa-3x me-2"></i>
+                      <i class="fab fa-cc-amex fa-3x me-2"></i>
+                      <i class="fab fa-cc-jcb fa-3x me-2"></i>
+                    </div>
+                  </div>
+
+                  <div class="name-container form-item horizontal-alignment">
+                    <div class="first-name-container">
+                      <label for="first-name"
+                        >First Name
+                        <span class="text-danger"><strong>*</strong></span></label
+                      >
+                      <input type="text" required/>
+                    </div>
+                    <div class="last-name-container">
+                      <label for="last-name"
+                        >Last Name
+                        <span class="text-danger"><strong>*</strong></span></label
+                      >
+                      <input type="text" required />
+                    </div>
+                  </div>
+                  <div class="email-container form-item">
+                    <label for="email">Email <span class="text-danger"><strong>*</strong></span></label
+                      ></label>
+                      <input type="email" required>
+                  </div>
+                  <div class="address-number-container form-item">
+                    <label for="address-number">Address <span class="text-danger"><strong>*</strong></span></label
+                      ></label>
+                    
+                    <input type="text" required>
+                  </div>
+                  <div class="address-number-container form-item">
+                    <label for="address-number">Apartment</label>
+                    <input type="text" >
+                  </div>
+
+                  <div class="country-container form-item triple-horizontal-alignment">
+                    <div class="country">
+                      <label for="country">Country</label>
+                      <input type="text" placeholder="Canada" id="country" disabled>
+                    </div>
+                    <div class="province">
+                      <label for="provinces">Province/ Territories <span class="text-danger"><strong>*</strong></span></label
+                        ></label>
+                      <select name="" id="provinces" required>
+                        <option value="" >Select Your Province</option>
+                        <option value="AB">Alberta</option>
+                        <option value="BC">British Columbia</option>
+                        <option value="MB">Manitoba</option>
+                        <option value="NB">New Brunswick</option>
+                        <option value="NL">Newfoundland and Labrador</option>
+                        <option value="NS">Nova Scotia</option>
+                        <option value="ON">Ontario</option>
+                        <option value="PE">Prince Edward Island</option>
+                        <option value="QC">Quebec</option>
+                        <option value="SK">Saskatchewan</option>
+                        <option value="NT">Northwest Territories</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="YT">Yukon</option>
+                      </select>
+                    </div>
+                    <div class="country">
+                      <label for="country">ZIP Code <span class="text-danger"><strong>*</strong></span></label
+                        ></label>
+                      <input type="text"  id="zip-code" required>
+                    </div>
+                  </div>
+                  
+                  <div class="phone-container form-item horizontal-alignment">
+                    <div class="homephone-container">
+                      <label for="homephone">Home Phone</label>
+                      <input type="text" id="homephone" class="homephone">
+                    </div>
+                    <div class="cellphone-container">
+                      <label for="cellphone">Cell Phone</label>
+                      <input type="text" id="cellphone" class="cellphone">
+                    </div>
+                  </div>
+                 
+                  <div class="message-container form-item">
+                    <label for="message">Notes</label>
+                    <textarea name="" id="message" cols="30" rows="5" placeholder="If you wish to send a note to the carrier"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-success d-block w-100" id="play-your-order-btn">Place Your Order</button>
+                
+              </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-outline-danger " id="go-back-to-cart-btn">Return To Cart</button>
+              
+            </div>
+       </div>
+
+      </div>
+    </div>
+
+    <hr class="break-line" />
+
+    <footer>
+      <!-- <div class="footer-logo">
+        <img src="img/logo/logo.png" alt="logo" />
+      </div> -->
+      <div class="info">
+        <h3>Contact Info</h3>
+        <p class="address">
+          <i class="fas fa-map-marker-alt"></i>m
+          366 James Street, Burnaby, British Columbia
+        </p>
+        <p class="phone">
+          <i class="fas fa-phone"></i>
+          604-484-2204
+        </p>
+      </div>
+
+      <hr class="break-line" />
+
+      <div class="social-media-container">
+        <h3>Follow Us</h3>
+        <div class="social-media">
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook fa-lg"></i
+          ></a>
+
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram fa-lg"></i
+          ></a>
+
+          <a href="https://twitter.com/">
+            <i class="fab fa-twitter fa-lg"></i
+          ></a>
+
+          <a href="https://www.pinterest.com/">
+            <i class="fab fa-pinterest fa-lg"></i
+          ></a>
+        </div>
+        <div class="top">
+          <a href="#">
+            <i class="fas fa-arrow-circle-up fa-2x"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- modal -->
+      
+
+      <!-- <hr class="break-line small" /> -->
+      <div class="rights">
+        <small>
+          © <span id="year"></span> Simon's Garden Direct. All Rights Reserved.
+          Designed by Simon Pham</small
+        >
+      </div>
+    </footer>
+
+    <!-- Bootstrap script -->
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Lightbox -->
+    <script src="dist/js/lightbox.min.js"></script>
+    <!-- Custom script -->
+    <script src="app.js"></script>
+  </body>
+</html>
