@@ -285,6 +285,7 @@ nav {
 
   .burger {
     display: none;
+    z-index: 1000;
 
     div {
       width: 25px;
