@@ -19,8 +19,8 @@
     color: $color-primary;
     font-weight: 500;
     font-style: italic;
-    display: flex;
-    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 //logo
@@ -629,7 +629,7 @@ footer {
 
   nav {
     margin-bottom: 20px;
-    justify-content: center;
+
     .logo {
       margin-top: 50px;
       text-align: center;
